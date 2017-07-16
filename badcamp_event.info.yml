@@ -1,0 +1,18 @@
+name: Event
+description: "Provides Event content type and related configuration. An <em>Event</em> is a summit, training, party, or other non-session activity.\r\n"
+type: module
+core: 8.x
+dependencies:
+  - badcamp_sponsors
+  - badcamp_venue
+  - datetime_range
+  - field
+  - field_group
+  - field_permissions
+  - menu_ui
+  - node
+  - path
+  - taxonomy
+  - text
+  - user
+package: BADCamp
