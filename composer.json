@@ -1,0 +1,19 @@
+{
+    "name": "badcamp/badcamp_event",
+    "description": "Provides Event content type and related configuration. An <em>Event</em> is a summit, training, party, or other non-session activity.",
+    "type": "drupal-module",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Sean Dietrich",
+            "email": "sean.e.dietrich@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "badcamp/badcamp_sponsor": "dev-master",
+        "badcamp/badcamp_venue": "dev-master",
+        "drupal/field_permissions": "^1.0@beta",
+        "drupal/field_group": "^1.0@RC"
+    }
+}
